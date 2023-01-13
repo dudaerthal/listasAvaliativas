@@ -1,0 +1,14 @@
+Proposta projeto LP3 - Eduarda Erthal
+Sistema de controle de uma livraria
+
+Duas entidades 
+Autor(Integer id, String nome, String nacionalidade, Date dataNascimento, List<Livros>)
+Livro(Integer id, String titulo, BigDecimal valor (10, 2), Date dataLancamento, String editora, List<Autores>)
+-Mapeamento Many to Many (um autor pode ter vários livros, um livro pode ter vários autores)
+
+-Criar classe de teste
+-Consultas:
+	- todos os livros de um determinado autor 
+	- pesquisar autor por primeiro nome
+	- pesquisar livros por titulo
+	- pesquisar livros por intervalo de ano de lançamento (ex: livros lançados entre 2010 e 2020), ordenado por ano
